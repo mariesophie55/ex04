@@ -1,6 +1,9 @@
 import 'dart:math' as mathematique;
   void main (){
-  print('Question 1:'
+
+    // Source: https://github.com/dzenanr/ondart_examples/blob/master/ondart_functions/fibonacci_with_iteration.dart
+
+    print('Question 1:'
       );
 
   String fibonacciIteration(var t) {
@@ -31,8 +34,8 @@ Coordinates(l, d){
   var height = 660;
   var yline = height / 2 + mathematique.cos( 90 - d ) * l;
   var xline= width / 2 + mathematique.sin( 90 - d ) * l;
-  print('Debut ligne:${width / 2}; ${height / 2}');
-  print('Fin ligne:{xline.toStringAsFixed(2)}; ${yline.toStringAsFixed(2)}');
+  print('[Debut ligne:${width / 2}; ${height / 2}]');
+  print('[Fin ligne:{xline.toStringAsFixed(2)}; ${yline.toStringAsFixed(2)}]');
 }
 
 print('Question 3:');
