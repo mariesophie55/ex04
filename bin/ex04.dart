@@ -24,16 +24,17 @@ import 'dart:math' as mathematique;
 
 print('Question 2:');
 
-Coordinates(l, d){
-  var x = 0;
-  var y = 0;
+
+
+  var x = 0; //Inutile
+  var y = 0; //Inutile
   var width = 980;
   var height = 660;
-  var yline = height / 2 + mathematique.cos( 90 - d ) * l;
-  var xline= width / 2 + mathematique.sin( 90 - d ) * l;
+  var yline = (height / 2) + (mathematique.sin(33*mathematique.PI/180)*120);
+  var xline= (width / 2) + (mathematique.cos(33*mathematique.PI/180)*120);
   print('Debut ligne:${width / 2}; ${height / 2}');
-  print('Fin ligne:{xline.toStringAsFixed(2)}; ${yline.toStringAsFixed(2)}');
-}
+  print('Fin ligne:${xline.toStringAsFixed(2)}; ${yline.toStringAsFixed(2)}');
+
 
 print('Question 3:');
 
