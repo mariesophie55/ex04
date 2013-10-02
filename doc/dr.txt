@@ -1,0 +1,18 @@
+ex04
+
+7/10
+
+(-1) formater le code
+voir https://www.dartlang.org/articles/style-guide/
+ligne vide entre les points
+
+4.3
+(-1) annees, mois, jours
+
+main
+(-1) copié de quelqu'un ?
+attention la prochaine fois
+  String total =
+table (compter);
+  print('Les '
+     '${compter + 1} premiers resultats de la table de 12:');
